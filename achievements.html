@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahan Lelwala</title>
+  <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <div id="navbar-div">
+    <nav id="desktop-nav">
+      <div class="logo" onclick="window.location.href = 'index.html'" style="font-weight: bold">
+
+        Srijith Yaparathna
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#gotoabout">About</a></li>
+          <li><a href="index.html#gotoexperience">Experience</a></li>
+          <li><a href="index.html#gotoprojects">Projects</a></li>
+          <li><a href="index.html#gotocontact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sahan Lelwala</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#gotoabout" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div id="gotoabout" style="height: 10vh">
+    <br />
+  </div>
+  <section id="achievements">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Achievements</h1>
+
+    <!--Achievemnet01  -->
+    <div class="section-container1">
+      <div class="section__pic-container1">
+        <img src="./assets/acive.jpg" alt="acievement-pic-1" class="about-pic" />
+      </div>
+
+      <!--Achievemnet02  -->
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Red Cypher (2024) </h3>
+            <h4>CTF Competition</h4>
+            <h5>"2nd Runners-up for team “1st Lane”, among 40+ teams"</h5>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            We (Team "1st Lane") got 3rd place in the Red Cypher 1.0 competition by IEEE Computer Society of UoR on
+            April, 2024 @NCC. Thanks a lot to my teammates Sanjula Lakpahana, Dushmin Malisha, and Sahan Lelwala
+            for their hard work and to the organizers for such a great CTF event. It was my first time competing in a
+            CTF and it was so much fun.
+          </p> <br />
+          <h5>The Team - Sanjula Lakpahana, Dushmin Malisha, Sahan Lelwala <br />
+            Issued by IEEE Computer Society University of Ruhuna - April 2024<br />
+            Associated with IEEE Student Branch University of Ruhuna</h5>
+        </div>
+      </div>
+    </div>
+
+    <!--Achievemnet03  -->
+
+
+    <!--Achievemnet02  -->
+
+
+    <!--Achievemnet02  -->
+
+
+  </section>
+  <br />
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

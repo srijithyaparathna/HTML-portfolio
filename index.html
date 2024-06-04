@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srijith Yaparathna</title>
+  <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <div id="navbar-div">
+    <nav id="desktop-nav">
+      <div class="logo" onclick="window.location.href = 'index.html'" style="font-weight: bold">
+       
+        Srijith Yaparathna
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#gotoabout">About</a></li>
+          <li><a href="#gotoexperience">Experience</a></li>
+          <li><a href="#gotoprojects">Projects</a></li>
+          <li><a href="#gotocontact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Srijith Yaparathna</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#gotoabout" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/39510.jpg" alt="srijith profile picture" />
+  </div>
+  
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Srijith Yaparathna</h1>
+      <p class="section__text__p2">Computer Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/srijith yaparathna.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/srijith-yaparathna-689a55266/')" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/srijithyaparathna')" />
+        <img src="./assets/fb.png" alt="My Facebook profile" class="icon"
+          onclick="window.open('https://www.facebook.com/srijith.yaparathna/')" />
+       
+      </div>
+    </div>
+  </section>
+  <div id="gotoabout" style="height: 10vh">
+    <br />
+  </div>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container1">
+        <img src="./assets/acive.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Achievements</h3>
+            
+            <h4>Red Cypher (2024) - CTF Competition</h4>
+            <p>2nd Runners-up for team “1st Lane”</p>
+            
+            <a href="achievements.html">Read More...</a>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>
+            <h4>
+              BSc.(Hons) in Computer Engineering</h4>
+            University of Ruhuna, SL <br />
+            <div class="text-container">
+              <p>2021 - Present </p>
+            </div>
+            </p><br>
+            <p>
+            <h4>High Sclool </h4>
+            Dharmaraja College, Kandy
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi, my name is Srijith Yaparathna. I am currently an undergraduate student pursuing a BSc Degree in Computer
+            Engineering at the Faculty of Engineering, University of Ruhuna. I possess strong skills in programming,
+            problem-solving, and web development technologies, including React, JavaScript, jQuery, and CSS..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="gotoexperience" style="height: 10vh">
+    <br />
+  </div>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Programming Languages </h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>C, C++, C#</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Java, Python </h4>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>JavaScript, TypeScript, CSS</h4>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          
+
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Web Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Web Technologies</h4>
+                <p>React.js, Angular.js, Node.js, Express.js, Spring Boot</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>UI/UX Designing</h4>
+                <p>Figma, WPF, Flutter</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Database Designing</h4>
+                <p>MySQL, MongoDB</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Tools & Frameworks</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Git, VS Code, Gira, GitHub, Intellij, Eclipse </h4>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Linux OS</h4>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>DevOps Engineering</h4>
+                <p>AWS, Azure</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Networking</h4>
+                <p>Cisco Packet Tracer</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">AI Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>Machine Lerning</h4>
+                <p>Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h4>ANN</h4>
+                <p>TensorFlow, PyTorch, OpenCV</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <div id="gotoprojects" style="height: 9vh">
+    <br />
+  </div>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+            <br><br>
+          </div>
+          <h4 class="experience-sub-title project-title"> Appointment Management System<br> <br> </h4>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/srijithyaparathna/AMS')">
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='projects.html'">
+              More Info
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <br> <br> <br> <br> <br>
+          <h4 class="experience-sub-title project-title">Web Application for online computer store<br>
+            <br> </h4>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/srijithyaparathna/SKYjithyapa-SKY-Computer_Store_full_website')">
+
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='projects.html'">
+              More Info
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-7.png" alt="Project 3" class="project-img" />
+          </div><br> <br>
+          <h4 class="experience-sub-title project-title"> ChatApp using Socket Programming (Java) <br> <br> </h4>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/srijithyaparathna/SocketProgrammingChatApp-gui')">
+
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='projects.html'">
+              More Info
+            </button>
+          </div>
+        </div>
+
+        <!--More projects-->
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-4.png" alt="Project 2" class="project-img" />
+          </div>
+          <h4 class="experience-sub-title project-title">  SuperMarket Billing System <br> <br> </h4>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/srijithyaparathna/SuperMarket_Biling_System')">
+              GitHub
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='projects.html'">
+              More Info
+            </button>
+          </div>   
+        </div>
+      </div>
+  </section>
+  <div id="gotocontact" style="height: 10vh">
+    <br />
+  </div>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>
+          <a href="mailto:syaparathne98@gmail.com">syaparathne98@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p>
+          <a href="https://www.linkedin.com/in/sahan-lelwala/">Srijith Yaparathna</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#gotoabout">About</a></li>
+          <li><a href="#gotoexperience">Experience</a></li>
+          <li><a href="#gotoprojects">Projects</a></li>
+          <li><a href="#gotocontact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Srijith Yaparathna. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
